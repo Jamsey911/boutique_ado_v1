@@ -34,7 +34,7 @@
 
     <body>
         <header class="container-fluid fixed-top"></header>
-        {% block if messages %}
+        {% if messages %}
             <div class="message-container"></div>
         {% endif %}
 
@@ -46,9 +46,6 @@
 
         {% block postloadjs %}
         {% endblock %}
-        
-
-
 
     </body>
 </html>
