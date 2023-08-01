@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ["8000-jamsey911-boutiqueadov1-n11p7ib55md.ws-eu102.gitpod.io",
-                 "boutique-ado-jl-a2f2e477354a.herokuapp.com",
+                 "boutique-ado-jl-ad1fb95490b0.herokuapp.com",
                  "localhost",]
 
 
